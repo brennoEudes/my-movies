@@ -8,6 +8,11 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+  font-size: 62.5%;
+}
+
 body {
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
     color: ${({ theme }) => theme.COLORS.WHITE};
@@ -17,7 +22,8 @@ body {
 
 body, input, button, textarea {
     font-family: "Roboto Slab", serif;
-    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
     outline: none; // removendo qq linha dos contornos
 }
 
