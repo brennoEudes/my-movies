@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 
-import { Button } from "../../components/Button";
 import { Header } from "../../components/Header";
+import { Section } from "../../components/Section";
 
 export function Details() {
   return (
@@ -9,9 +9,11 @@ export function Details() {
       <Container>
         <Header />
         <h1>Hello, world!</h1>
-        <Button title="Cadastrar" />
-        <Button title="Login" />
-        <Button title="Voltar" loading />
+        <Section>
+          
+        </Section>
+  
+
       </Container>
     </>
   );
