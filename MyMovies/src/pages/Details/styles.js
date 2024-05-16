@@ -27,16 +27,14 @@ export const Content = styled.div`
   gap: 4rem;
 
   > p {
-    margin-top: 1.6rem;
     text-align: justify;
   }
 `;
 
 export const MovieInfo = styled.div`
-display: flex;
-flex-direction: column;
-gap: 2.4rem;
-  
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
 `;
 
 export const MovieCreationInfo = styled.div`
