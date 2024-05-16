@@ -1,9 +1,9 @@
 import { GoArrowLeft } from "react-icons/go";
 import { Container } from "./styles";
 
-export function ButtonText({ title }) {
+export function ButtonText({ title, ...rest }) {
   return (
-    <Container>
+    <Container type="button" {...rest}>
       <>
         <GoArrowLeft />
         {title}
