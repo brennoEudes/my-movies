@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   max-width: 114rem;
   margin: 4rem auto;
-  
+
   title {
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@ export const Content = styled.div`
 
   padding: 3.2rem;
   border-radius: 1.6rem;
-  margin-right: .8rem;
+  margin-right: 0.8rem;
 
   background-color: ${({ theme }) => theme.COLORS.DARK_RED};
 
