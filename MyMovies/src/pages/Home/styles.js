@@ -67,11 +67,28 @@ export const Content = styled.div`
     -webkit-box-orient: vertical; // Sets the orientation of the box to be vertical.
     overflow: hidden; // Hides the overflowing text.
     text-overflow: ellipsis; // Adds an ellipsis (...) to indicate the text has been truncated.
-    
+
     height: 4rem; /* Adjust this based on your line-height */
     line-height: 2rem; /* Adjust this based on your line-height */
 
-    color: ${({ theme }) => theme.COLORS.GRAY_100};
 
+    color: ${({ theme }) => theme.COLORS.GRAY_100};
   }
+`;
+
+export const MovieTitle = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  font-size: 2.4rem;
+  font-weight: 800;
+
+  > img {
+    width: 8.4rem;
+  }
+`;
+
+export const TagsGroup = styled.div`
+
 `;
