@@ -10,11 +10,11 @@ export function Home() {
     <>
       <Header />
       <Container>
-        <main>
         <title>
           <h1>My Movies</h1>
           <Button title="+ Add Movie" />
         </title>
+        <main>
           <Content>
             <Rating title="Interstellar" />
             <p>
