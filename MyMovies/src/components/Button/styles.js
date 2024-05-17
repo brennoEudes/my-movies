@@ -7,8 +7,7 @@ export const Container = styled.button`
   height: 5.6rem;
   border: 0;
   padding: 0 1.6rem;
-  margin-top: 1.6rem;
-  border-radius: 10rem;
+  border-radius: .8rem;
   font-weight: 500;
 
   // quando btn estiver desabilitado:
