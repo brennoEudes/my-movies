@@ -11,7 +11,7 @@ export function Header() {
         <Profile>
           <div>
             <strong>Brenno Eudes</strong>
-            <span>sair</span>
+            <span>Logout</span>
           </div>
 
           <img
