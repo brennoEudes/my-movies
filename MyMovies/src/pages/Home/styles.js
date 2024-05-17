@@ -11,6 +11,10 @@ export const Container = styled.div`
 
     padding-bottom: 4rem;
 
+    h1 {
+      font-weight: 400;
+    }
+
     button {
       max-width: 20rem;
       height: 4.8rem;
