@@ -1,6 +1,8 @@
 import { Header } from "../../components/Header";
 import { Button } from "../../components/Button";
 import stars from "../../assets/stars.svg";
+import { GoPlus } from "react-icons/go";
+
 //import { Rating } from "../../components/Rating";
 import { Tag } from "../../components/Tag";
 
@@ -13,7 +15,7 @@ export function Home() {
       <Container>
         <title>
           <h1>My Movies</h1>
-          <Button title="+ Add Movie" />
+          <Button title="Add Movie" icon={GoPlus} />
         </title>
         <main>
           <Content>
