@@ -1,12 +1,10 @@
 import { Header } from "../../components/Header";
 import { Button } from "../../components/Button";
-//import stars from "../../assets/stars.svg";
+
 import { GoPlus } from "react-icons/go";
-
 //import { Rating } from "../../components/Rating";
-import { Tag } from "../../components/Tag";
 
-import { Container, Content, MovieTitle, TagsGroup } from "./styles";
+import { Container } from "./styles";
 import { MovieCard } from "../../components/MovieCard";
 
 export function Home() {
