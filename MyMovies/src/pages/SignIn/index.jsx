@@ -11,6 +11,7 @@ export function SignIn() {
   return (
     <>
       <Container>
+        <Background />{/* Mudei o lado do bg por preferência */}
         <Form>
           <h1>MyMovies</h1>
           <p>See all my favorite movies.</p>
@@ -22,7 +23,6 @@ export function SignIn() {
 
           <ButtonText title="Create an account" />
         </Form>
-        <Background />
       </Container>
     </>
   );
