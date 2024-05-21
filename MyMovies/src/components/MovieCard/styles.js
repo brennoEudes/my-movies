@@ -38,5 +38,7 @@ export const Container = styled.div`
 
       color: ${({ theme }) => theme.COLORS.GRAY_100};
     }
+
+    
   }
 `;
