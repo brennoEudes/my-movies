@@ -34,11 +34,11 @@ export function Details() {
               </MovieCreationInfo>
             </MovieInfo>
 
-            <Section>
+            <section>
               <Tag title="SciFi" />
               <Tag title="Drama" />
               <Tag title="Family" />
-            </Section>
+            </section>
 
             <p>
               Pragas nas colheitas fizeram a civilização humana regredir para
