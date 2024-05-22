@@ -43,5 +43,9 @@ export const Container = styled(Link)`
 
       color: ${({ theme }) => theme.COLORS.GRAY_100};
     }
+
+    .moviecard-tag {
+      background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+    }
   }
 `;

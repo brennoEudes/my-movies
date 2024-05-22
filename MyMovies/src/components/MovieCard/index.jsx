@@ -17,7 +17,7 @@ export function MovieCard({ data, ...rest }) {
           {data.tags && (
             <footer>
               {data.tags.map((tag) => {
-                return <Tag key={tag.id} title={tag.name} />;
+                return <Tag key={tag.id} title={tag.name} className="moviecard-tag" />;
               })}
             </footer>
           )}
