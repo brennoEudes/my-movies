@@ -9,8 +9,10 @@ import { Profile } from "../pages/Profile";
 export function AuthRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/" element={<Details />} />
+      {/* Envolve todas as rotas */}
+      <Route path="/" element={<Home />} />{" "}
+      {/* P/ cada rota, informamos o endereço e o q será renderizado! */}
+      <Route path="/" element={<Details />} /> {/* precisa do cód da nota, por isso add ":id" */}
       <Route path="/" element={<CreateMovie />} />
       <Route path="/" element={<Profile />} />
     </Routes>
