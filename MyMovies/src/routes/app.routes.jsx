@@ -7,7 +7,7 @@ import { SignUp } from "../pages/SignUp";
 export function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<SignIn />} />
+      <Route path="/signIn" element={<SignIn />} />
       <Route path="/register" element={<SignUp />} />
     </Routes>
   );
