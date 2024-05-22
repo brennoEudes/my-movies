@@ -4,6 +4,7 @@ export const Container = styled.header`
   grid-area: header;
   width: 100%;
   height: 10.5rem;
+  
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
@@ -17,23 +18,12 @@ export const Container = styled.header`
     font-size: 2.4rem;
     font-weight: bold;
   }
+
 `;
 
 export const Search = styled.div`
   width: 64rem;
   height: 5.3rem;
-  display: flex;
-  align-items: center;
-
-  padding: 2rem 2.4rem;
-
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
-  border-radius: 1rem;
-
-  > p {
-    font-size: 1.4rem;
-    color: ${({ theme }) => theme.COLORS.GRAY_100};
-  }
 `;
 
 export const Profile = styled.div`

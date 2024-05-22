@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import { MdSearch } from "react-icons/md";
+import { Input } from "../Input";
+
 import { Container, Search, Profile } from "./styles";
 
 export function Header() {
@@ -6,9 +9,11 @@ export function Header() {
     <>
       <Container>
         <p>MyMovies</p>
+
         <Search>
-          <p>Search by title</p>
+          <Input className="search" placeholder="Search by title" icon={MdSearch} />
         </Search>
+
         <Profile>
           <div>
             <strong>Brenno Eudes</strong>
@@ -16,7 +21,8 @@ export function Header() {
           </div>
 
           <Link to="/profile">
-            <img id="profile-img"
+            <img
+              id="profile-img"
               src="https://github.com/brennoEudes.png"
               alt="GitHub profile image"
             />
