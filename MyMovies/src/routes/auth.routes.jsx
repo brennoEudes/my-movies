@@ -12,9 +12,9 @@ export function AuthRoutes() {
       {/* Envolve todas as rotas */}
       <Route path="/" element={<Home />} />{" "}
       {/* P/ cada rota, informamos o endereço e o q será renderizado! */}
-      <Route path="/" element={<Details />} /> {/* precisa do cód da nota, por isso add ":id" */}
-      <Route path="/" element={<CreateMovie />} />
-      <Route path="/" element={<Profile />} />
+      <Route path="/details" element={<Details />} /> {/* precisa do cód da nota, por isso add ":id" */}
+      <Route path="/createMovie" element={<CreateMovie />} />
+      <Route path="/profile" element={<Profile />} />
     </Routes>
   );
 }
