@@ -14,10 +14,10 @@ export function Home() {
       <Container>
         <title>
           <h1>My Movies</h1>
-          <Button title="Add Movie" icon={GoPlus} />
+          <Button to="/createMovie" title="Add Movie" icon={GoPlus} />
         </title>
         <main>
-          <MovieCard
+          <MovieCard to="/details/:id"
             data={{
               title: "Interstellar",
               article: `Pragas nas colheitas fizeram a civilização humana regredir
@@ -58,7 +58,7 @@ export function Home() {
             }}
           />
 
-          <MovieCard
+          <MovieCard to="/details/:id"
             data={{
               title: "Interstellar",
               article: `Pragas nas colheitas fizeram a civilização humana regredir
@@ -99,7 +99,7 @@ export function Home() {
             }}
           />
 
-          <MovieCard
+          <MovieCard to="/details/:id"
             data={{
               title: "Interstellar",
               article: `Pragas nas colheitas fizeram a civilização humana regredir

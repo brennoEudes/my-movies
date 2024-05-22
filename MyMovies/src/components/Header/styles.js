@@ -52,13 +52,13 @@ export const Profile = styled.div`
       color: ${({ theme }) => theme.COLORS.WHITE};
     }
 
-    span {
+    a {
       font-size: 1.4rem;
       color: ${({ theme }) => theme.COLORS.GRAY_100};
     }
   }
 
-  > img {
+  #profile-img {
     width: 5.6rem;
     height: 5.6rem;
     border-radius: 50%; /* Macete p/ criar círculo */

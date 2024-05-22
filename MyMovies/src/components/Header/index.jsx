@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Container, Search, Profile } from "./styles";
 
 export function Header() {
@@ -11,13 +12,15 @@ export function Header() {
         <Profile>
           <div>
             <strong>Brenno Eudes</strong>
-            <span>Logout</span>
+            <Link to="/signin">Logout</Link>
           </div>
 
-          <img
-            src="https://github.com/brennoEudes.png"
-            alt="GitHub profile image"
-          />
+          <Link to="/profile">
+            <img id="profile-img"
+              src="https://github.com/brennoEudes.png"
+              alt="GitHub profile image"
+            />
+          </Link>
         </Profile>
       </Container>
     </>

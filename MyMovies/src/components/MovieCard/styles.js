@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled(Link)`
   width: 100%;
 
   main {
@@ -18,6 +19,10 @@ export const Container = styled.div`
       display: flex;
       flex-direction: column;
       gap: 0.8rem;
+
+      h2 {
+        color: ${({ theme }) => theme.COLORS.WHITE};
+      }
 
       > img {
         width: 8.4rem;
@@ -38,7 +43,5 @@ export const Container = styled.div`
 
       color: ${({ theme }) => theme.COLORS.GRAY_100};
     }
-
-    
   }
 `;

@@ -14,7 +14,7 @@ export function CreateMovie() {
       <Header />
       <Container>
         <title>
-          <ButtonText title="Back" icon="true" />
+          <ButtonText to="/" title="Back" icon="true" />
           <h1>New Movie</h1>
         </title>
         <main>

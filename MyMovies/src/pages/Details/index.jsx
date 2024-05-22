@@ -15,7 +15,7 @@ export function Details() {
         <main>
           <Content>
             <MovieInfo>
-              <ButtonText title="Voltar" />
+              <ButtonText to="/" title="Back" icon="true" />
 
               <Rating title="Interstellar" />
 

@@ -12,7 +12,7 @@ export function Profile() {
     <>
       <Container>
         <header>
-          <ButtonText title="Back" icon="true" />
+          <ButtonText to="/" title="Back" icon="true" />
         </header>
 
         <Form>

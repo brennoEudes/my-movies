@@ -8,17 +8,13 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 72rem;
 
     padding-bottom: 4rem;
 
     h1 {
       font-weight: 400;
-    }
-
-    button {
-      max-width: 20rem;
-      height: 4.8rem;
-      font-weight: 400;
+      min-width: 18rem;
     }
   }
 
