@@ -21,7 +21,7 @@ export function SignIn() {
           <Input type="password" placeholder="Password" icon={FiLock} />
           <Button title="Enter" className="btn-login" />
 
-          <ButtonText title="Create an account" />
+          <ButtonText to="/register" title="Create an account" />
         </Form>
       </Container>
     </>

@@ -23,7 +23,8 @@ export function SignUp() {
 
           <Button title="Sign Up" className="btn-login" />
 
-          <ButtonText title="Login" icon="true" />
+          {/* passamos o "to" aqui p/ rota. O "Link" foi definido lá no componente buttonText */}
+          <ButtonText to="/" title="Login" icon="true"></ButtonText>
         </Form>
         <Background />
       </Container>
